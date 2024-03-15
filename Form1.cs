@@ -115,9 +115,6 @@ namespace pdfSigner
 
         private void textBox2_DoubleClick(object sender, EventArgs e)//' RIGHT SIDE SIGNATURE
         {
-            var fileContent = string.Empty;
-            var filePath = string.Empty;
-
             using (OpenFileDialog openFileDialog = new OpenFileDialog())
             {
                 openFileDialog.InitialDirectory = "c:\\";
@@ -136,10 +133,6 @@ namespace pdfSigner
 
         private void textBox3_DoubleClick(object sender, EventArgs e)//' LEFT SIDE SIGNATURE
         {
-
-            var fileContent = string.Empty;
-            var filePath = string.Empty;
-
             using (OpenFileDialog openFileDialog = new OpenFileDialog())
             {
                 openFileDialog.InitialDirectory = "c:\\";
